@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+        <meta name="author" content="Coderthemes">
+
+        <link rel="shortcut icon" href="assets/images/favicon_1.ico">
+
+        <title>Cotizaciones | KAMELPERD</title>
+
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/core.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/icons.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/components.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/pages.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/menu.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/responsive.css" rel="stylesheet" type="text/css">
+
+        <script src="assets/js/modernizr.min.js"></script>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+
+      </head>
+
+
+      <body class="fixed-left">
+
+          <!-- Begin page -->
+          <div id="wrapper">
+
+              <!-- Top Bar Start -->
+              <div class="topbar">
+                  <!-- LOGO -->
+                  <div class="topbar-left">
+                      <div class="text-center logodiv">
+                          <a href="index.html" class="logo"><img src="assets/images/K-Logo.png" style="height: 50px; vertical-align: text-bottom"><span>amelperd</span> </a>
+                      </div>
+                  </div>
+                  <!-- Button mobile view to collapse sidebar menu -->
+                  <div class="navbar navbar-default" role="navigation">
+                      <div class="container">
+                          <div class="">
+                              <div class="pull-left">
+                                  <button class="button-menu-mobile open-left">
+                                      <i class="fa fa-bars"></i>
+                                  </button>
+                                  <span class="clearfix"></span>
+                              </div>
+                              <form class="navbar-form pull-left" role="search">
+                                  <div class="form-group">
+                                      <input type="text" class="form-control search-bar" placeholder="Buscar">
+                                  </div>
+                                  <button type="submit" class="btn btn-search"><i class="fa fa-search"></i></button>
+                              </form>
+
+                              <ul class="nav navbar-nav navbar-right pull-right">
+                                  <li class="hidden-xs">
+                                      <a href="#" id="btn-fullscreen" class="waves-effect"><i class="md md-crop-free"></i></a>
+                                  </li>
+                                  <li class="dropdown">
+                                      <a href="" class="dropdown-toggle profile" data-toggle="dropdown" aria-expanded="true"><img src="assets/images/users/avatar-1.jpg" alt="user-img" class="img-circle"> </a>
+                                      <ul class="dropdown-menu">
+                                          <li><a href="javascript:void(0)"><i class="md md-face-unlock"></i> Mi Perfil</a></li>
+                                          <li><a href="javascript:void(0)"><i class="md md-settings"></i> Ajustes</a></li>
+                                          <li><a href="javascript:void(0)"><i class="md md-settings-power"></i> Salir</a></li>
+                                      </ul>
+                                  </li>
+                              </ul>
+                          </div>
+                          <!--/.nav-collapse -->
+                      </div>
+                  </div>
+              </div>
+              <!-- Top Bar End -->
+
+
+              <!-- ========== Left Sidebar Start ========== -->
+
+              <div class="left side-menu">
+                  <div class="sidebar-inner slimscrollleft">
+                      <div class="user-details">
+                          <div class="pull-left">
+                              <img src="assets/images/users/avatar-1.jpg" alt="" class="thumb-md img-circle">
+                          </div>
+                          <div class="user-info">
+                              <div class="dropdown">
+                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Mayer Rayek <span class="caret"></span></a>
+                                  <ul class="dropdown-menu">
+                                      <li><a href="javascript:void(0)"><i class="md md-face-unlock"></i> Perfil<div class="ripple-wrapper"></div></a></li>
+                                      <li><a href="javascript:void(0)"><i class="md md-settings"></i> Ajustes</a></li>
+                                      <li><a href="javascript:void(0)"><i class="md md-settings-power"></i> Salir</a></li>
+                                  </ul>
+                              </div>
+
+                              <p class="text-muted m-0">Director General</p>
+                          </div>
+                      </div>
+                      <!--- Divider -->
+                      <div id="sidebar-menu">
+                          <ul>
+                              <li>
+                                  <a href="index.html" class="waves-effect waves-light active"><i class="md md-home"></i><span> Inicio </span></a>
+                              </li>
+
+                              <li class="has_sub">
+                                  <a href="#" class="waves-effect waves-light"><i class="md-view-module"></i><span> Productos </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                                  <ul class="list-unstyled">
+                                      <li><a href="agregarProducto.html">Agregar Productos</a></li>
+                                      <li><a href="productos.html">Todos los productos</a></li>
+                                      <li><a href="transferirProducto.html">Transferencias</a></li>
+                                  </ul>
+                              </li>
+
+                              <li>
+                                  <a href="inventario.html" class="waves-effect"><i class="md-assignment"></i><span> Inventario </span></a>
+                              </li>
+
+                              <li>
+                                  <a href="clientes.html" class="waves-effect"><i class="md-group"></i><span> Clientes </span></a>
+                              </li>
+
+                              <li class="has_sub">
+                                  <a href="#" class="waves-effect waves-light"><i class="md-send"></i><span> Cotizaciones </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                                  <ul class="list-unstyled">
+                                      <li><a href="cotizacion.html">Crear Cotización</a></li>
+                                      <li><a href="cotizaciones.html">Todas las cotizaciones</a></li>
+                                  </ul>
+                              </li>
+
+                              <li class="has_sub">
+                                  <a href="#" class="waves-effect waves-light"><i class="md-subject"></i><span> Remisiones </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                                  <ul class="list-unstyled">
+                                      <li><a href="nuevaremision.html">Crear Remisión</a></li>
+                                      <li><a href="remisiones.html">Todas las Remisiones</a></li>
+                                  </ul>
+                              </li>
+
+                              <li class="has_sub">
+                                  <a href="#" class="waves-effect waves-light"><i class="md-account-balance"></i><span> Facturación </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                                  <ul class="list-unstyled">
+                                    <li><a href="Factura.html">Nueva Factura</a></li>
+                                    <li><a href="Facturas.html">Facturas Pasadas</a></li>
+                                  </ul>
+                              </li>
+
+                              <li>
+                                  <a href="Usuarios.html" class="waves-effect"><i class="md-account-circle"></i><span> Usuarios </span></a>
+                              </li>
+                          </ul>
+                          <div class="clearfix"></div>
+                      </div>
+                      <div class="clearfix"></div>
+                  </div>
+              </div>
+              <!-- Left Sidebar End -->
+
+
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="content-page">
+                <!-- Start content -->
+                <div class="content">
+                    <div class="container">
+
+                        <!-- Page-Title -->
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4 class="pull-left page-title">Nueva Cotización</h4>
+                                <ol class="breadcrumb pull-right">
+                                    <li><a href="index.html">Kamelperd</a></li>
+                                    <li class="active">Cotización</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="panel panel-default">
+                                    <!-- <div class="panel-heading">
+                                        <h4>Invoice</h4>
+                                    </div> -->
+                                    <div class="panel-body">
+                                        <div class="clearfix">
+                                            <div class="pull-left">
+                                                <h4 class="text-right"><img src="assets/images/Logo_kamel2.png" style="height: 60px"></h4>
+
+                                            </div>
+                                            <div class="pull-right">
+                                                <h4>Cotización # 259<br></h4>
+                                                <p><strong>Fecha: </strong> 15 de Enero 2018</p>
+                                                <p class="m-t-10"><strong>Estado: </strong> <span class="label label-warning">Pendiente</span></p>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-md-12">
+
+                                                <div class="pull-left m-t-30">
+                                                    <address>
+                                                      <strong>Constructora SA de CV</strong><br>
+                                                       Av. de los Bosques 156 Int.504<br>
+                                                       Col. Tecamachalco. 53950<br>
+                                                       Naucalpan Estado de México<br>
+                                                       T: (55) 5249 7890
+                                                      </address>
+                                                </div>
+                                                <div class="pull-right m-t-30">
+                                                  <address>
+                                                    <strong>Kamelperd SA de CV</strong><br>
+                                                     Av. de los Bosques 156 Int.504<br>
+                                                     Col. Tecamachalco. 53950<br>
+                                                     Naucalpan Estado de México<br>
+                                                     T: (55) 5249 7890
+                                                    </address>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="m-h-50"></div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="table-responsive">
+                                                    <table class="table m-t-30">
+                                                        <thead>
+                                                            <tr>
+                                                            <th>Cantidad</th>
+                                                            <th>Producto</th>
+                                                            <th>Medidas</th>
+                                                            <th>Descripción</th>
+                                                            <th>P/ Unitario</th>
+                                                            <th>Subtotal</th>
+                                                            <th>Editar</th>
+                                                            <th>Borrar</th>
+                                                        </tr></thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                  <td>20</td>
+                                                                  <td>Marco</td>
+                                                                  <td>1.00x1.56mts</td>
+                                                                  <td>Marco de construcción tamaño 1.00x1.56mts </td>
+                                                                  <td>$15.70</td>
+                                                                  <td>$314.00</td>
+                                                                  <td><i class="ion-edit"></i></td>
+                                                                  <td><i class="ion-close-circled"></i></td>
+                                                            </tr>
+                                                            <tr>
+                                                                  <td>20</td>
+                                                                  <td>Marco</td>
+                                                                  <td>1.50x1.56mts</td>
+                                                                  <td>Marco de construcción tamaño 1.50x1.56mts </td>
+                                                                  <td>$19.20</td>
+                                                                  <td>$384.00</td>
+                                                                  <td><i class="ion-edit"></i></td>
+                                                                  <td><i class="ion-close-circled"></i></td>
+                                                            </tr>
+                                                            <tr>
+                                                                  <td>15</td>
+                                                                  <td>Marco</td>
+                                                                  <td>2.00x1.56mts</td>
+                                                                  <td>Marco de construcción tamaño 2.00x1.56mts </td>
+                                                                  <td>$21.10</td>
+                                                                  <td>$211.00</td>
+                                                                  <td><i class="ion-edit"></i></td>
+                                                                  <td><i class="ion-close-circled"></i></td>
+                                                            </tr>
+                                                            <tr>
+                                                                  <td>50</td>
+                                                                  <td>Marco Puente</td>
+                                                                  <td>2.00x1.56mts</td>
+                                                                  <td>Marco Puente de construcción tamaño 2.00x1.56mts </td>
+                                                                  <td>$36.40</td>
+                                                                  <td>$1,820.00</td>
+                                                                  <td><i class="ion-edit"></i></td>
+                                                                  <td><i class="ion-close-circled"></i></td>
+                                                            </tr>
+
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row" style="border-radius: 0px">
+                                            <div class="col-md-3 col-md-offset-9">
+                                                <p class="text-right"><b>Sub-total:</b> $2,729.00 MXN</p>
+                                                <p class="text-right">% Descuento: 12.9%</p>
+                                                <p class="text-right">Descuento: $352.04 MXN</p>
+                                                <p class="text-right">IVA (16%): $380.31 MXN</p>
+                                                <hr>
+                                                <h4 class="text-right">TOTAL $2,757.27 MXN</h4>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="hidden-print">
+                                            <div class="pull-right">
+                                                <a href="javascript:window.print()" class="btn btn-inverse waves-effect waves-light"><i class="fa fa-print"></i></a>
+                                                <a href="#" class="btn btn-primary waves-effect waves-light">Crear</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div> <!-- container -->
+
+                </div> <!-- content -->
+
+                <footer class="footer text-right">
+                    Creado por Kimo Solutions
+                </footer>
+
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Right content here -->
+            <!-- ============================================================== -->
+
+
+
+        </div>
+        <!-- END wrapper -->
+
+        <script>
+            var resizefunc = [];
+        </script>
+
+        <!-- Main  -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/detect.js"></script>
+        <script src="assets/js/fastclick.js"></script>
+        <script src="assets/js/jquery.slimscroll.js"></script>
+        <script src="assets/js/jquery.blockUI.js"></script>
+        <script src="assets/js/waves.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/jquery.nicescroll.js"></script>
+        <script src="assets/js/jquery.scrollTo.min.js"></script>
+
+        <script src="assets/js/jquery.app.js"></script>
+
+	</body>
+</html>
